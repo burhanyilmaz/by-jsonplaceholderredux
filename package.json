@@ -1,12 +1,16 @@
 {
   "name": "by-jsonplaceholderredux",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package is jsonplaceholder redux package.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["jsonplaceholder", "redux", "jsonplaceholderredux"],
+  "keywords": [
+    "jsonplaceholder",
+    "redux",
+    "jsonplaceholderredux"
+  ],
   "author": "Burhan YILMAZ",
   "license": "ISC",
   "dependencies": {
