@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import SliceTypes from "../helpers/SliceTypes";
 
 const INITIAL_STATE = {
     photos: [],
@@ -6,13 +7,13 @@ const INITIAL_STATE = {
     photosErrorMessage: null,
     photosError: null
 }
-
+// tarimkredi edakik-m edakik-w tarimkredi-we
 const PhotoSlice = createSlice({
-  name: "photos",
+  name: SliceTypes.PHOTOS,
   initialState: INITIAL_STATE,
   reducers: {
       changeLoading(state, action){
-          state.photosLoading = action.status;
+          state.photosLoading = action.payload;
       },
       setPhotos(state, action){
           state.photos = action.payload;
